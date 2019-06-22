@@ -65,6 +65,11 @@ Some `gulp` task you should know about:
 - `scss:min` compress the compiled css files
 - `watch` executes `scss` and `scss:min` on any file change
 
+**Note**
+```diff
+- when running `gulp scss` you will notice a warning, just disregard it. 
+```
+
 **Required tools for development:**
 
 - Node.js
