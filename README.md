@@ -1,4 +1,4 @@
-# `css-boilerplate`
+# `PrefaceCSS`
 
 [![GitHub issues](https://img.shields.io/github/issues/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/issues)
 [![GitHub forks](https://img.shields.io/github/forks/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/network)
@@ -22,7 +22,7 @@ Thanks to the opportunities the open-source development offers us, there are tho
 
 ### Use
 
-Add `<link rel="stylesheet" href="css/css-boilerplate.css">` to your `<head>`.
+Add `<link rel="stylesheet" href="css/preface.css">` or `<link rel="stylesheet" href="css/preface.min.css">` to your `<head>`.
 
 ### Download
 
@@ -37,9 +37,10 @@ Clone and mix up things. If you think your edits are interesting for the public,
 Here a brief overview of our folder structure:
 
 ```
-css-boilerplate
+PrefaceCSS
 ├── dist # Our destination folder
-│   ├── css-boilerplate.css
+│   ├── preface.css
+│   ├── preface.min.css
 │   └── index.html
 ├── screenshots # Houses screenshots
 ├── src # Our source folder
@@ -75,4 +76,4 @@ Some `gulp` task you should know about:
 A project by [Conner Luzier](https://github.com/cluzier).
 Other amazing contributors [here](https://github.com/cluzier/PrefaceCSS/graphs/contributors).
 
-[![GitHub license](https://img.shields.io/github/license/cluzier/css-boilerplate.svg)](https://github.com/cluzier/PrefaceCSS/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/blob/master/LICENSE)
