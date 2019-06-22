@@ -1,31 +1,36 @@
-# `css-boilerplate` 
+# `css-boilerplate`
 
-[![GitHub issues](https://img.shields.io/github/issues/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/issues)
-[![GitHub forks](https://img.shields.io/github/forks/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/network)
-[![GitHub stars](https://img.shields.io/github/stars/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/stargazers)
-[![GitHub license](https://img.shields.io/github/license/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/issues)
+[![GitHub forks](https://img.shields.io/github/forks/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/network)
+[![GitHub stars](https://img.shields.io/github/stars/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/stargazers)
+[![GitHub license](https://img.shields.io/github/license/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/blob/master/LICENSE)
 
-`css-boilerplate` is a fresh looking but still simple css framework.
+`PrefaceCSS` is a fresh looking simple css framework.
 
 ## About
 
-`css-boilerplate` is a fresh looking but still simple css framework that should be taken as basis for your next website. We designed it to be flexible but still small, thanks to `scss` you need to change some variables and you have your own version of `css-boilerplate`
+`PrefaceCSS` is a fresh looking simple css framework that should be taken as the basis for your next website. We designed it to be flexible but still small, thanks to `scss` all you need to change are some variables and you have your own flavor of `PrefaceCSS`.
+
+# Screenshot
+
+[![Image of PrefaceCSS](./assets/screenshot.png)](https://cluzier.github.io/PrefaceCSS/dist/index.html)
+*Hint*: Click the image to view a web page full of HTML examples.
 
 ## How to use it
 
 Thanks to the opportunities the open-source development offers us, there are thousand ways to use this libary or change it. Below here I list only a few of them.
 
-### Just use it
+### Use
 
 Add `<link rel="stylesheet" href="css/css-boilerplate.css">` to your `<head>`.
 
-### Download it
+### Download
 
 Download from Github with the following command:
 
-**GitHub**: `$ git clone https://github.com/cluzier/css-boilerplate`
+**GitHub**: `$ git clone https://github.com/cluzier/PrefaceCSS`
 
-### Change it
+### Contribute
 
 Clone and mix up things. If you think your edits are interesting for the public, just open a new pull request on that.
 
@@ -36,6 +41,7 @@ css-boilerplate
 ├── dist # Our destination folder
 │   ├── css-boilerplate.css
 │   └── index.html
+├── screenshots # Houses screenshots
 ├── src # Our source folder
 │   ├── _base.scss
 │   ├── _button.scss
@@ -67,4 +73,6 @@ Some `gulp` task you should know about:
 ## Credits & License
 
 A project by [Conner Luzier](https://github.com/cluzier).
-Other amazing contributors [here](https://github.com/cluzier/css-boilerplate/graphs/contributors).
+Other amazing contributors [here](https://github.com/cluzier/PrefaceCSS/graphs/contributors).
+
+[![GitHub license](https://img.shields.io/github/license/cluzier/css-boilerplate.svg)](https://github.com/cluzier/PrefaceCSS/blob/master/LICENSE)
