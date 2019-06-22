@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
-/*
- Define some variables we will need
-*/
+/* Define some variables we will need (colors) */
 $textColor: #212121;
-$textInvertColor: #ffffff;
+$textInvertColor: rgba(255, 255, 255, 0.87);
 
-$mutedColor: #e0e0e0;
-$successColor: #2be379;
-$errorColor: #f14735;
-$warningColor: #ffb930;
+$mutedColor: #c0c0c0;
+$successColor: #66cdaa;
+$errorColor: #f08080;
+$warningColor: #fef65b;
 
 $ligthenIntesity: 30%;
 
-$font: 'Lato', sans-serif;
+$font: 'Roboto Mono', monospace;
 
 $columnNames: 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve';
 $columnWidth: 100% / length($columnNames) - 1%;
@@ -24,9 +23,7 @@ $shadowIdle: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 $shadowTiny: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 $shadowHuge: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
-/*
- Do the imports
-*/
+/* Do the imports for other scss */
 @import 'base';
 
 @import 'navigation';

@@ -1,18 +1,18 @@
 {
-  "name": "css-boilerplate",
+  "name": "PrefaceCSS",
   "version": "3.0.0",
-  "description": "A boilerplate that is easy for anyone to change to their liking while keeping a minimalistic look.",
+  "description": "A CSS Boilerplate for minimalists https://cluzier.github.io/css-boilerplate/dist/index.html",
   "author": "Conner Luzier <https://github.com/cluzier>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cluzier/css-boilerplate"
+    "url": "https://github.com/cluzier/PrefaceCSS"
   },
   "keywords": [
-    "css",
-    "css-boilerplate",
+    "PrefaceCSS",
+    "preface",
     "boilerplate",
     "simple",
-    "minimalistic"
+    "css"
   ],
   "devDependencies": {
     "gulp": "latest",

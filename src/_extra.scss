@@ -42,9 +42,9 @@ hr {
 .bg-warning { background-color: $warningColor; }
 .bg-error { background-color: $errorColor; }
 
-.bg-success-bright { background-color: lighten($successColor, $ligthenIntesity); }
-.bg-warning-bright { background-color: lighten($warningColor, $ligthenIntesity); }
-.bg-error-bright { background-color: lighten($errorColor, $ligthenIntesity); }
+.bg-success-bright { background-color: ($successColor); }
+.bg-warning-bright { background-color: ($warningColor); }
+.bg-error-bright { background-color: ($errorColor); }
 
 // Code element
 code {
