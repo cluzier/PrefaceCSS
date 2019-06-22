@@ -1,0 +1,30 @@
+{
+  "name": "css-boilerplate",
+  "version": "3.0.0",
+  "description": "A boilerplate that is easy for anyone to change to their liking while keeping a minimalistic look.",
+  "author": "Conner Luzier <https://github.com/cluzier>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cluzier/css-boilerplate"
+  },
+  "keywords": [
+    "css",
+    "css-boilerplate",
+    "boilerplate",
+    "simple",
+    "minimalistic"
+  ],
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-banner": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest"
+  },
+  "scripts": {
+    "build-css": "gulp sass",
+    "watch-css": "gulp sass:watch"
+  },
+  "license": "MIT"
+}
