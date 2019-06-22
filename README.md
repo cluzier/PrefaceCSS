@@ -75,5 +75,3 @@ Some `gulp` task you should know about:
 
 A project by [Conner Luzier](https://github.com/cluzier).
 Other amazing contributors [here](https://github.com/cluzier/PrefaceCSS/graphs/contributors).
-
-[![GitHub license](https://img.shields.io/github/license/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/blob/master/LICENSE)
