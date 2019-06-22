@@ -1,4 +1,4 @@
-# `css-boilerplate` ✨
+# `css-boilerplate` 
 
 [![GitHub issues](https://img.shields.io/github/issues/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/issues)
 [![GitHub forks](https://img.shields.io/github/forks/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/network)
@@ -9,7 +9,7 @@
 
 ## About
 
-`css-boilerplate` is a fresh looking but still simple css framework that should be taken as basis for your next website. We designed it to be flexible but still small, thanks to `scss` you need to change some variables and you have your own version of `css-boilerplate` :sunglasses:
+`css-boilerplate` is a fresh looking but still simple css framework that should be taken as basis for your next website. We designed it to be flexible but still small, thanks to `scss` you need to change some variables and you have your own version of `css-boilerplate`
 
 ## How to use it
 
