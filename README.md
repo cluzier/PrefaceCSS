@@ -3,7 +3,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/issues)
 [![GitHub forks](https://img.shields.io/github/forks/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/network)
 [![GitHub stars](https://img.shields.io/github/stars/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/stargazers)
-
+[![GitHub license](https://img.shields.io/github/license/cluzier/css-boilerplate.svg)](https://github.com/cluzier/css-boilerplate/blob/master/LICENSE)
 
 `css-boilerplate` is a fresh looking but still simple css framework.
 
