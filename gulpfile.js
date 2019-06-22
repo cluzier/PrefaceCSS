@@ -14,16 +14,6 @@ gulp.task('scss', function () {
     .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('scss:min', function () {
-  return gulp.src('./src/style.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer({ browsers: ['> 1%', 'IE 7'], cascade: false }))
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(banner('/* css-boilerplate <https://github.com/cluzier/css-boilerplate> , Copyright 2019, Conner Luzier */\n', {}))
-    .pipe(rename('css-boilerplate.min.css'))
-    .pipe(gulp.dest('./dist'));
-});
-
 gulp.task('watch', function () {
   gulp.watch('./src/*.scss', ['scss', 'scss:min']);
 });
