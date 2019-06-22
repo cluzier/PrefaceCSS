@@ -13,7 +13,7 @@
 
 # Screenshot
 
-[![Image of PrefaceCSS](./assets/screenshot.png)](https://cluzier.github.io/PrefaceCSS/dist/index.html)
+[![Image of PrefaceCSS](./screenshots/screenshot.png)](https://cluzier.github.io/PrefaceCSS/dist/index.html)
 *Hint*: Click the image to view a web page full of HTML examples.
 
 ## How to use it
