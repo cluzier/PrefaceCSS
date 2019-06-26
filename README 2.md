@@ -3,9 +3,10 @@
 [![GitHub issues](https://img.shields.io/github/issues/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/issues)
 [![GitHub forks](https://img.shields.io/github/forks/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/network)
 [![GitHub stars](https://img.shields.io/github/stars/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/stargazers)
+[![HitCount](http://hits.dwyl.io/clutter/PrefaceCSS.svg)](http://hits.dwyl.io/clutter/PrefaceCSS)
 [![GitHub license](https://img.shields.io/github/license/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/blob/master/LICENSE)
 
-`PrefaceCSS` is a fresh looking simple css framework.
+`PrefaceCSS` is a fresh looking simple css framework for minimalists.
 
 ## About
 
@@ -76,7 +77,12 @@ Some `gulp` task you should know about:
 - NPM
 - Gulp installed globally (`npm install gulp -g`)
 
-## Credits & License
+## Credits
 
 A project by [Conner Luzier](https://github.com/cluzier).
 Other amazing contributors [here](https://github.com/cluzier/PrefaceCSS/graphs/contributors).
+
+## Acknowledgement
+
+PrefaceCSS is based on [skeleton-plus](https://github.com/oltdaniel/skeleton-plus). Skeleton-plus created by Daniel Oltmanns <[oltdaniel](https://github.com/oltdaniel)>.
+Pure CSS Loaders taken from https://loading.io/css/ 

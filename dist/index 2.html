@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CSS Boilerplate</title>
+
+  <link rel="stylesheet" href="preface.css">
+
+  <style media="screen">
+    section {
+      margin: 50px 0;
+    }
+
+    .color-preview {
+      padding: 15px;
+    }
+
+    .block {
+      padding: 10px;
+      margin: 2px;
+      background-color: #ddd;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <label>PrefaceCSS</label>
+      <ul>
+        <li><a href="#preview">Preview</a></li>
+        <li><a href="https://github.com/cluzier/PrefaceCSS" target="_blank">GitHub</a></li>
+        <li><a href="https://github.com/cluzier" target="_blank">Creator</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="cover">
+      <div>
+        <h3>Welcome to `PrefaceCSS`</h3>
+        <p>
+          CSS for those who are minimalists!
+        </p>
+        <hr>
+      </div>
+    </div>
+
+    <section id="preview">
+      <h2>Typography</h2>
+      <hr>
+      <br>
+
+      <!-- Headings -->
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+
+      <br>
+
+      <!-- Special formatting -->
+      <b>bold</b> <i>italic</i> <s>stroke</s> <u>underline</u> <small>small</small>
+
+      <br><br>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+      </p>
+
+      <!-- Text colors -->
+      <p class="text-muted">
+        Muted text color looks like this
+      </p>
+
+      <p class="text-success">
+        Success text color looks like this
+      </p>
+
+      <p class="text-warning">
+        Warning text color looks like this
+      </p>
+
+      <p class="text-error">
+        Error text color looks like this
+      </p>
+
+      <br>
+
+      <!-- Text aligment -->
+      <p class="text-right">RIGHT</p>
+      <p class="text-center">CENTER</p>
+      <p class="text-left">LEFT</p>
+    </section>
+
+    <section>
+      <h2>Buttons</h2>
+      <hr>
+      <br>
+
+      <!-- Buttons -->
+      <button>Button</button>
+      <button disabled>Button Disabled</button>
+
+      <!-- Colors -->
+      <button class="success">Button Success</button>
+      <button class="error">Button Error</button>
+      <button class="warning">Button Warning</button>
+
+      <!-- Extras -->
+      <button class="btn-shadow">Shadow</button>
+    </section>
+
+    <section>
+      <h2>Inputs</h2>
+      <hr>
+      <br>
+
+      <!-- Input elements -->
+      <input type="text" name="text" placeholder="Input" required><br>
+
+      <textarea name="textarea" placeholder="Textarea"></textarea><br>
+
+      <select name="select">
+        <option value="test">Test</option>
+      </select>
+    </section>
+
+    <section>
+      <h2>Colors</h2>
+      <hr>
+      <br>
+
+      <!-- Background colors -->
+      <div class="color-preview bg-success text-center text-inverted">
+        SUCCESS
+      </div>
+      <div class="color-preview bg-error text-center text-inverted">
+        ERROR
+      </div>
+      <div class="color-preview bg-warning text-center text-inverted">
+        WARNING
+      </div>
+    </section>
+
+    <section>
+      <h2>Grids</h2>
+      <hr>
+      <br>
+
+      <h4>Flex</h4>
+      <p>
+        Length of an element equals <code>[element number]/[total]</code>
+      </p>
+
+      <!-- Flex grid -->
+      <div class="grid-flex">
+        <div class="flex-1 block">
+          1/2
+        </div>
+        <div class="flex-1 block">
+          1/2
+        </div>
+      </div>
+      <br>
+      <div class="grid-flex">
+        <div class="flex-2 block">
+          2/3
+        </div>
+        <div class="flex-1 block">
+          1/1
+        </div>
+      </div>
+
+      <br>
+
+      <h4>Vanilla</h4>
+
+      <!-- Old grid -->
+      <div class="row text-center">
+        <div class="columns one block">
+          1
+        </div>
+        <div class="columns eleven block">
+          11
+        </div>
+      </div>
+
+      <br>
+
+      <b>Mobile only</b>
+
+      <!-- Mobile only grid -->
+      <div class="row text-center">
+        <div class="columns six block mobile">
+          6
+        </div>
+        <div class="columns six block mobile">
+          6
+        </div>
+      </div>
+
+      <br>
+
+      <b>Desktop only</b>
+
+      <!-- Desktop-only grid -->
+      <div class="row text-center">
+        <div class="columns six block desktop">
+          6
+        </div>
+        <div class="columns six block desktop">
+          6
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Lists</h2>
+      <hr>
+      <br>
+
+      <h4>Standard list</h4>
+
+      <!-- Standard list -->
+      <ul>
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur.
+            </li>
+            <li class="inner">
+              <b>Inner position</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur.
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <br>
+
+
+      <h4>Nested list</h4>
+
+      <!-- Inner list -->
+      <ul class="inner">
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur.
+            </li>
+            <li class="outer">
+              <b>Outer position</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Table</h2>
+      <hr>
+      <br>
+
+      <!-- Table -->
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-success-bright">
+            <td>1</td>
+            <td>Conner</td>
+            <td>Chillin'</td>
+            <td>USA</td>
+          </tr>
+          <tr class="bg-error-bright">
+            <td>2</td>
+            <td>Giancarlos</td>
+            <td>Coding</td>
+            <td>Cuba</td>
+          </tr>
+          <tr class="bg-warning-bright">
+            <td>3</td>
+            <td>Carl</td>
+            <td>Drinking Tea</td>
+            <td>Skyrim</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Bruno</td>
+            <td>Hacking</td>
+            <td>Cyber Space</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Cards</h2>
+      <hr>
+      <br>
+
+      <p class="text-muted"><b>ATTENTION:</b> No material guidelines used, we chose the shadow we think is the best for
+        card.</p>
+
+      <!-- Cards -->
+      <div class="card">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </div>
+      </div>
+
+      <div class="card card-shadow">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </div>
+      </div>
+
+      <div class="content">
+        text between cards
+      </div>
+      </div>
+
+      <div class="card card-shadow">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </div>
+
+        <div class="footer">
+          <a target="_blank" class="none">footer with link</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Extras</h2>
+      <hr>
+      <br>
+
+      <!-- Progress bar -->
+      <div class="progress">
+        <div class="bar bg-success" id="pg"></div>
+      </div>
+
+      <script type="text/javascript">
+        function nextProgress() {
+          (p += val) < 0 ? p += val = 10 : p > 100 && (p += val = -10), setTimeout(function () {
+            document.getElementById("pg").style.width = p + "%", nextProgress()
+          }, 1e3)
+        }
+        var p = 100,
+          val = -10;
+        nextProgress();
+      </script>
+
+      <div class="progress">
+        <div class="bar bg-error" style="width:75%"></div>
+      </div>
+
+      <div class="progress">
+        <div class="bar bg-warning" style="width:50%"></div>
+      </div>
+
+      <!-- Tooltip -->
+      <div style="margin: 25px;">
+        <a data-tooltip="this is a tooltip!">Tooltip test</a>
+      </div>
+
+      <!-- Code -->
+      <pre>
+          <code>.class {
+  value: "Hello World";
+  big: "there is a ton of content here (just pretend)";
+}</code>
+        </pre>
+
+      <!-- Loaders -->
+      <div class="grid-flex">
+        <div class="lds-facebook">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="lds-roller">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="lds-ripple">
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="lds-circle">
+          <div></div>
+        </div>
+
+        <div class="lds-hourglass"></div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <a class="action">&#171;</a>
+        <a class="action">&#60;</a>
+
+        <a>1</a>
+        <a>2</a>
+        <a>..</a>
+        <a>9</a>
+        <a>10</a>
+
+        <a class="action">&#62;</a>
+        <a class="action">&#187;</a>
+      </div>
+
+      <div class="pagination no-flex">
+        <a class="action">&#171;</a>
+        <a class="action">&#60;</a>
+
+        <a>1</a>
+        <a>2</a>
+        <a>..</a>
+        <a>9</a>
+        <a>10</a>
+
+        <a class="action">&#62;</a>
+        <a class="action">&#187;</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
