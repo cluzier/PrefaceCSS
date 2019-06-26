@@ -85,3 +85,4 @@ Other amazing contributors [here](https://github.com/cluzier/PrefaceCSS/graphs/c
 ## Acknowledgement
 
 PrefaceCSS is based on [skeleton-plus](https://github.com/oltdaniel/skeleton-plus). Skeleton-plus created by Daniel Oltmanns <[oltdaniel](https://github.com/oltdaniel)>.
+Pure CSS Loaders taken from https://loading.io/css/ 
