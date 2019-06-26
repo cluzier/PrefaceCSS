@@ -26,5 +26,8 @@
     "build-css": "gulp sass",
     "watch-css": "gulp sass:watch"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "loaders.css": "^0.1.2"
+  }
 }
