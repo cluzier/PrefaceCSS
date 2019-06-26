@@ -50,6 +50,7 @@ PrefaceCSS
 │   ├── _extra.scss
 │   ├── _grid.scss
 │   ├── _input.scss
+│   ├── _loaders.scss
 │   ├── _navigation.scss
 │   ├── _table.scss
 │   ├── _typography.scss
@@ -77,7 +78,11 @@ Some `gulp` task you should know about:
 - NPM
 - Gulp installed globally (`npm install gulp -g`)
 
-## Credits & License
+## Acknowledgements
+Based off [Skeleton-plus](https://github.com/oltdaniel/skeleton-plus) by [oltdaniel](https://github.com/oltdaniel).  
+CSS loaders from [Spinkit](https://tobiasahlin.com/spinkit/) & [Loading.io](https://loading.io/css/)
+
+## Credits
 
 A project by [Conner Luzier](https://github.com/cluzier).
 Other amazing contributors [here](https://github.com/cluzier/PrefaceCSS/graphs/contributors).
