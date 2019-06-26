@@ -4,6 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/network)
 [![GitHub stars](https://img.shields.io/github/stars/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/stargazers)
 [![GitHub license](https://img.shields.io/github/license/cluzier/PrefaceCSS.svg)](https://github.com/cluzier/PrefaceCSS/blob/master/LICENSE)
+[![HitCount](http://hits.dwyl.io/cluzier/PrefaceCSS.svg)](http://hits.dwyl.io/cluzier/PrefaceCSS)
 
 `PrefaceCSS` is a fresh looking simple css framework.
 
