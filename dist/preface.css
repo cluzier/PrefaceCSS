@@ -661,3 +661,55 @@ img {
     transform: translate(0, 0); }
   100% {
     transform: translate(19px, 0); } }
+
+.lds-circle {
+  display: inline-block;
+  transform: translateZ(1px); }
+
+.lds-circle > div {
+  display: inline-block;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border-radius: 50%;
+  background: #413a3a;
+  animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
+
+@keyframes lds-circle {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5); }
+  0% {
+    transform: rotateY(0deg); }
+  50% {
+    transform: rotateY(1800deg);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1); }
+  100% {
+    transform: rotateY(3600deg); } }
+
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px; }
+
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 6px;
+  box-sizing: border-box;
+  border: 26px solid #413a3a;
+  border-color: #413a3a transparent #413a3a transparent;
+  animation: lds-hourglass 1.2s infinite; }
+
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  100% {
+    transform: rotate(1800deg); } }
