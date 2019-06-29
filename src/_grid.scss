@@ -9,6 +9,11 @@
   display: flex;
 }
 
+.grid-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .row:after {
 	content: '';
 	display: table;
