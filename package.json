@@ -15,6 +15,7 @@
     "css"
   ],
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
     "gulp-banner": "latest",
@@ -28,6 +29,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "loaders.css": "^0.1.2"
   }
 }
