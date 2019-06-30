@@ -52,6 +52,7 @@ PrefaceCSS
 │   ├── _input.scss
 │   ├── _loaders.scss
 │   ├── _navigation.scss
+│   ├── _scrollbars.scss
 │   ├── _table.scss
 │   ├── _typography.scss
 │   └── style.scss
