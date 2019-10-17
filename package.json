@@ -30,6 +30,8 @@
   "license": "MIT",
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "loaders.css": "^0.1.2"
+    "loaders.css": "^0.1.2",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0"
   }
 }
